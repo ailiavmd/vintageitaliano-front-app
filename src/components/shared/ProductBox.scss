@@ -1,0 +1,27 @@
+.product-box {
+    border: 1px solid #ddd;
+    overflow: hidden;
+
+    .product-info {
+        z-index: 9;
+        background: rgba(0,0,0,0.7);
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: .2s;
+
+        h4 {
+            font-size: 1.2rem;
+            color: white;
+        }
+
+        p {
+            color: rgba(255,255,255,0.8);
+        }
+    }
+
+    a:hover .product-info {
+        top: 0;
+    }
+}

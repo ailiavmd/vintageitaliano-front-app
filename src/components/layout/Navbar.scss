@@ -1,0 +1,48 @@
+.app-header {
+
+    background: var(--black);
+    position: relative;
+    z-index: 9999;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+
+    a {
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: .9rem;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    .toggle {
+        background: transparent;
+        border: none;
+        padding: 0;
+        color: var(--primary);
+    }
+}
+
+.site-navigation {
+    top: 0;
+    position: sticky;
+    background: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    z-index: 999;
+    background: var(--primary);
+    display: none;
+
+    &.expanded {
+        display: block;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: .9rem;
+    }
+}
