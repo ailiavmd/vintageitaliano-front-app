@@ -8,7 +8,7 @@ export const SearchForm = () => {
             <form className="d-flex input-form">
                 <input placeholder="Buscar..." type="text" />
                 <button className="d-inline-flex align-items-center justify-content-center">
-                    <span className="material-symbols-outlined">
+                    <span className="material-icons">
                         search
                     </span>
                 </button>

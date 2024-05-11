@@ -63,6 +63,12 @@ h3 {
   color: var(--primary);
 }
 
+h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
 .input-form {
   input {
     background: rgba(128, 128, 204, 0.1);
@@ -86,4 +92,20 @@ h3 {
     border-bottom-right-radius: 30px;
     padding: 0 10px;
   }
+}
+
+button.button,
+a.button {
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .8rem;
+  padding: 10px 16px;
+  border-radius: 30px;
+}
+
+button.button.primary,
+a.button.primary {
+  background: var(--primary);
+  color: white;
 }

@@ -57,13 +57,13 @@ export const Slider = ({ children }) => {
             </div>
 
             <button className="position-absolute prev" onClick={() => setIndex(prev(index, count))}>
-                <span className="material-symbols-outlined">
+                <span className="material-icons">
                     navigate_before
                 </span>
             </button>
 
             <button className="position-absolute next" onClick={() => setIndex(next(index, count))}>
-                <span className="material-symbols-outlined">
+                <span className="material-icons">
                     navigate_next
                 </span>
             </button>

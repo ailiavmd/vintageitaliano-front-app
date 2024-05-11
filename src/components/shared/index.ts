@@ -5,3 +5,4 @@ export * from './BannerBox';
 export * from './ProductList';
 export * from './CategoryList';
 export * from './BannerList';
+export * from './Rating';

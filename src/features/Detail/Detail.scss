@@ -1,0 +1,33 @@
+.detail-page {
+
+    .product-banner {
+        display: grid;
+        gap: 30px;
+
+        img {
+            width: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+        @media(min-width: 800px) {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .product-feed {
+        display: grid;
+        gap: 30px;
+
+        @media(min-width: 800px) {
+            grid-template-columns: 3fr 1fr;
+        }
+
+        .product-thumbnail {
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

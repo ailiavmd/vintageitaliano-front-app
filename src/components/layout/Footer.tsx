@@ -59,7 +59,7 @@ export const Footer = () => {
                     <form className="d-flex justify-content-center input-form">
                         <input placeholder="Suscribirse" type="text" />
                         <button className="d-inline-flex align-items-center justify-content-center">
-                            <span className="material-symbols-outlined">
+                            <span className="material-icons">
                                 send
                             </span>
                         </button>

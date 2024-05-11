@@ -25,7 +25,7 @@ export const Navbar = () => {
                                 <li><a className="d-inline-block p-3" href="/">Sign Up</a></li>
                                 <li>
                                     <a className="d-inline-block p-3" href="/">
-                                        <span className="material-symbols-outlined">
+                                        <span className="material-icons">
                                             shopping_cart
                                         </span>
                                     </a>
@@ -33,7 +33,7 @@ export const Navbar = () => {
                             </ul>
 
                             <button className="d-block d-md-none toggle" onClick={() => setOpen(!open)}>
-                                <span className="material-symbols-outlined">
+                                <span className="material-icons">
                                     menu
                                 </span>
                             </button>

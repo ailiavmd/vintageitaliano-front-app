@@ -1,5 +1,5 @@
 import React from 'react';
-import { BannerList, CategoryList, ProductList, Slider } from '../components/shared';
+import { BannerList, CategoryList, ProductList, Slider } from '../../components/shared';
 
 export const Home = () => {
 

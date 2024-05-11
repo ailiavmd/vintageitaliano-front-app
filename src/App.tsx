@@ -2,7 +2,8 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import { Footer, Navbar } from './components/layout';
-import { Home } from './features';
+import { Home } from './features/Home';
+import { Detail } from './features/Detail';
 
 import './App.scss';
 
@@ -14,6 +15,7 @@ export const App = () => {
 			<main className="site-main">
 				<Routes>
 					<Route path="/" element={<Home />} />
+					<Route path="/products/:id" element={<Detail />} />
 				</Routes>
 			</main>
 			
